@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+<head>
+<title>ALL_IN_ONE_FORMS</title>
+</head>
+<body bgcolor='cyan'>
+<h1>SIGNUP_FORM</h1>
+<b>Please fill in this form to create an account</b>
+<form  method='post' enctype='multipart/form-data'>
+<label>Email:</label>
+<input type='text' name='email' placeholder='Email-Id*' required=''><br>
+<label>Set UserName:</label>
+<input type='text' name='Username' placeholder='UserName*' required=''><br>
+<label>Password:</label>
+<input type='text' name='Password' placeholder='EnterPassword*' required=''><br>
+<label>ConfirmPassword:</label>
+<input type='text' name='ConfirmPassword' placeholder='ConfirmPassword*' required=''><br>
+<input type='submit' value='SIGNUP'><input type='submit' value='CANCEL'><br>
+</form>
+<h1>LOGIN_FORM</h1>
+<b>LogIn Into your account</b>
+<form  method='post' enctype='multipart/form-data'>
+<label>Username:</label>
+<input type='text' name='Username' placeholder='EnterYourName*' required=''><br>
+<label>Password:</label>
+<input type='text' name='Password' placeholder='EnterYourPassword*' required=''><br>
+<input type='submit' value='LOGIN'>
+<label><input type='checkbox'checked='checked' name='Remember me'>Remember Me</label><br>
+<input type='submit' value='FORGOT PASSWORD'><input type='submit' value='CANCEL'><br>
+</form>
+<h1>REGISTRATION_FORM</h1>
+<b>Plese fill your details for registration</b>
+<form  method='post' enctype='multipart/form-data'>
+<label>FirstName:</label>
+<input type='text' name='FirstName' placeholder='FirstName*' required=''><br>
+<label>LastName:</label>
+<input type='text' name=LastName' placeholder='LastName*' required=''><br>
+<label>Email:</label>
+<input type='text' name='email' placeholder='Email-Id*' required=''><br>
+<input type="radio" name='Gender' value="Male" checked="">Male
+<input type="radio" name='Gender' value="Female">Female
+<input type="radio" name='Gender' value="other">Not to Specify<br>
+<label>MoblieNo:</label>
+<input type='text' name='MOB' placeholder='mobile*' required=''><br>
+<label>AltMobNo:</label>
+<input type='text' name='MOB1' placeholder='mobile1*' required=''><br>
+<label>AadharNo:</label>
+<input type='text' name='Aadhar' placeholder='Enter aadhar no*' required=''><br>
+<label>DOB:</label>
+<input type='date' name='DOB placeholder='' required=''><br>
+<tr>
+<td>PresentAddress</td><br>
+<td><textarea cols='20'rows='3'></textarea></td><br></tr>
+<td>CurrentAddress</td><br>
+<td><textarea cols='20'rows='3'></textarea></td><br></tr>
+<label><input type='checkbox'checked='checked' name='Currentadrs'>Same as present address</label><br>
+<input type='submit' value='REGISTER'>
+<input type='submit' value='CANCEL'>
+</form>
+<h1>FORGOT_PASSWORD</h1>
+<b>Reset Your Password Here</b>
+<form  method='post' enctype='multipart/form-data'>
+<label>EmailId:</label>
+<input type='text' name='Email' placeholder='Enter register emailId*' required=''><br>
+<label>MobileNo:</label>
+<input type='text' name='Mobile' placeholder='Enter register mobile no*' required=''><br>
+<input type='submit' value='GENERATE OTP'><input type='submit' value='RESEND OTP'><br>
+<input type='text' name='otp' placeholder='Enter OTP*' required=''><br>
+<label>NewPassword:</label>
+<input type='text' name='Password' placeholder='NewPassword*' required=''><br>
+<label>ConfirmPassword:</label>
+<input type='text' name='ConfirmPassword' placeholder='ConfirmPassword*' required=''><br>
+<input type='submit' value='SUBMIT'>
+</form>
+<h1>CONTACT_US</h1>
+<b>Leave your message</b>
+<form  method='post' enctype='multipart/form-data'>
+<label>First Name</label>
+<input type='text'name="firstname" placeholder="Your name*"><br>
+<label>Last Name</label>
+<input type='text'name="lastname" placeholder="Your last name*"><br>
+<label>Email:</label>
+<input type='text' name='email' placeholder='Email-Id*' required=''><br>
+<label>Country</label>
+<select id="country" name="country">
+<option value="india">India</option>
+<option value="china">China</option>
+<option value="usa">USA</option>
+<option value="uk">UK</option>
+</select><br>
+<label for="subject">Subject</label><br>
+<textarea id="subject" name="subject" placeholder="Write something.."></textarea><br>
+<input type="submit" value="Drop Message">
+</form>
+<h1>SUBSCRIBE</h1>
+<b>Subscribe to our channel</b>
+<form  method='post' enctype='multipart/form-data'>
+<label>Email:</label>
+<input type='text' name='Email' placeholder='Enter EmailId*' required=''><br>
+<label><input type='checkbox'checked='checked' name='sub'>Agreed to our term and condition</label><br>
+<input type='submit' value='SUBSCRIBE'>
+<input type='submit' value='UNSUBSCRIBE'>
+</form>
+<h1>SURVEY_FORM</h1>
+<form  method='post' enctype='multipart/form-data'>
+<label>Name</label>
+<input type='text'name="name" placeholder="Your name*"><br>
+<label>Email:</label>
+<input type='text' name='Email' placeholder='Enter EmailId*' required=''><br>
+<label>Please rate our product</label>
+<input type="radio" name='no1' value="1">1
+<input type="radio" name='no2' value="2"checked="">2
+<input type="radio" name='no3' value="3">3
+<input type="radio" name='no3' value="4">4
+<input type="radio" name='no3' value="5"checked="">5<br>
+<label>Please rate our delivery</label>
+<input type="radio" name='no1' value="1">1
+<input type="radio" name='no2' value="2">2
+<input type="radio" name='no3' value="3">3
+<input type="radio" name='no3' value="4">4
+<input type="radio" name='no3' value="5"checked="">5<br>
+<label>Would you recommend this product to someone</label>
+<select id="rec" name="rec">
+<option value="YES">Yes</option>
+<option value="NO">No</option>
+<option value="MAYBE">Maybe</option></select></br>
+<label>Any comments or suggestions</label><br>
+<textarea id="subject" name="subject" placeholder="Write something.."></textarea><br>
+<input type="submit" value="SEND">
+</form>
+<h1>ONLINE_EXAM</h1>
+<b>July 2021 batch weekly test<b> 
+<form  method='post' enctype='multipart/form-data'>
+<label>Name</label>
+<input type='text'name="name" placeholder="Your name*"><br>
+<label>RollNo:</label>
+<input type='text' name='roll' placeholder='Enter RollNo*' required=''><br>
+<label>Date:</label>
+<input type='date' name='DOB placeholder='' required=''><br>
+<label>1. HTML stands for.......</label>
+<ol>
+<li>Hyper Tool Machine Language</li>
+<li>Hyper Test Markup Language</li>
+<li>Hyper Text Markup Language</li>
+<li>High Tech Machine Language</li>
+<input type="radio" name='no1' value="1">1
+<input type="radio" name='no2' value="2">2
+<input type="radio" name='no3' value="3"checked="">3
+<input type="radio" name='no3' value="4">4<br>
+<input type="submit" value="SUBMIT">
+</form>
+<h1>ONLINE_ORDER</h1>
+<b>Welcome to KKKK Store<b> 
+<form  method='post' enctype='multipart/form-data'>
+<label>Name</label>
+<input type='text'name="name" placeholder="Your name*"><br>
+<label>Email:</label>
+<input type='text' name='Email' placeholder='Enter EmailId*' required=''><br>
+<label>MobileNo:</label>
+<input type='text' name='Mobile' placeholder='Entermobile no*' required=''><br>
+<label>Address1:</label><br>
+<textarea id="Address" name="Address" placeholder="Address1."></textarea><br>
+<label>Address2:</label><br>
+<textarea id="Addres1" name="Address" placeholder="Address2"></textarea><br>
+<label>City:</label>
+<input type='text' name='City' placeholder='Enter city name*' required=''><br>
+<label>State:</label>
+<input type='text' name='State' placeholder='Enter state name*' required=''><br>
+<label>ZIP Code:</label>
+<input type='text' name='Pin' placeholder='Enter PIN *' required=''><br>
+<label>Country:</label>
+<input type='text' name='Country' placeholder='Enter country name*' required=''><br>
+<label>Choose Product</label>
+<select id="prod" name="prod">
+<option value="Prod-1">Prod-1</option>
+<option value="Prod-2">Prod-2</option>
+<option value="Prod-3">Prod-3</option></select></br>
+<label>Choose more product</label>
+<select id="prod" name="prod">
+<option value="Prod-4">Prod-4</option>
+<option value="Prod-5">Prod-5</option>
+<option value="Prod-6">Prod-6</option></select></br>
+<input type="submit" value="PLACE ORDER"><input type="submit" value="CANCEL ORDER">
+</form>
+<h1>PAYMENT_DETAILS</h1>
+<form  method='post' enctype='multipart/form-data'>
+<label>Payment Mode:</label><br>
+<input type="radio" name='upi' value="UPI">UPI<br>
+<input type="radio" name='p2' value="p2">Netbankig<br>
+<input type="radio" name='p3' value="p3"checked="">Credit Card<br>
+<input type="radio" name='no3' value="p4">Debit Card<br>
+<input type="radio" name='nod' value="p5">COD<br><br>
+<label>Card No</label>
+<input type='text'name="card" placeholder="xxxx-xxxx-xxxx-xxxx*"><br>
+<label>Name</label>
+<input type='text'name="name" placeholder="Cardholder Name*"><br>
+<label>Valid Upto</label>
+<input type='text'name="date" placeholder="00/00*"><br>
+<label>CVV</label>
+<input type='text'name="date" placeholder="***"><br>
+<input type="submit" value="Submit">
+</form>
+<h1>TICKET_RESERVATION</h1>
+<b>Book your ticket here<b> 
+<form  method='post' enctype='multipart/form-data'>
+<label>SourceName</label>
+<input type='text'name="sname" placeholder="City"><br>
+<label>DestnName</label>
+<input type='text'name="dname" placeholder="City"><br>
+<label>TravelMode:</label><br>
+<input type="radio" name='bus' value="bus">BUS<br>
+<input type="radio" name='train' value="trn">Train<br>
+<input type="radio" name='fly' value="fly"checked="">Flight<br>
+<label>Name</label>
+<input type='text'name="name" placeholder="Name same as govt ID"><br>
+<label>Age</label>
+<input type='text'name="name" placeholder="Enter Age "><br>
+<label>Email:</label>
+<input type='text' name='Email' placeholder='Enter EmailId*' required=''><br>
+<label>MobileNo:</label>
+<input type='text' name='Mobile' placeholder='Entermobile no*' required=''><br>
+<label>GovtID:</label><br>
+<input type="radio" name='pan' value="pan">PAN<br>
+<input type="radio" name='ad' value="ad">AADHAR<br>
+<input type="radio" name='vt' value="vt"checked="">VOTERID<br>
+<input type="radio" name='dl' value="dl">DL<br>
+<label>Enter ID No:</label>
+<input type='text' name='id' placeholder='000000000' required=''><br>
+<input type="submit" value="Book Ticket">
+</form>
+<h1>COMPLAINTS</h1>
+<form  method='post' enctype='multipart/form-data'>
+<label>Name</label>
+<input type='text'name="name" placeholder=" Enter Name"><br>
+<label>Email:</label>
+<input type='text' name='Email' placeholder='Enter EmailId*' required=''><br>
+<label>MobNo:</label>
+<input type='text' name='Mobile' placeholder='Entermobile no*' required=''><br>
+<label>Choose Query:</label>
+<select id="qry" name="qry">
+<option value="qry1">Ticket ID not recieved</option>
+<option value="qry2">Money deducted but ticket not confirmed</option>
+<option value="qry3">Ticket cancellation</option>
+<option value="qry4">Refund related issue</option>
+<option value="oth">Others</option></select></br>
+<label>Others</label><br>
+<textarea id="subject" name="subject" placeholder="Please specify.."></textarea><br>
+<input type="submit" value="SEND">
+</form>
+<h1>SEARCH</h1>
+<form  method='post' enctype='multipart/form-data'>
+<label>Search anything here..</label><br>
+<input type='text' name='sr' placeholder='type anything...' required=''><br>
+<input type="submit" value="SEARCH">
+</form>
+<h1>DOWNLOAD</h1>
+<form  method='post' enctype='multipart/form-data'>
+<label>Select Video</label><br>
+<input type="radio" name='v1' value="v1">Video-1<br>
+<input type="radio" name='v2' value="v2" checked="">Video-2<br>
+<input type="radio" name='vt' value="vt"checked="">Video-3<br>
+<label>Select Resolution</label><br>
+<input type="radio" name='v1' value="v1">320X640<br>
+<input type="radio" name='v2' value="v2">1920X1080<br>
+<input type="radio" name='vt' value="vt" checked="">3840X2160<br>
+<input type="submit" value="Download">
+</form>
+<h1>DONATION_FORM</h1>
+<b>Form Preview<b>
+<form  method='post' enctype='multipart/form-data'>
+<label>Name</label>
+<input type='text'name="name" placeholder=" Enter Name"><br>
+<label>Email:</label>
+<input type='text' name='Email' placeholder='Enter EmailId*' required=''><br>
+<label>MobNo:</label>
+<input type='text' name='Mobile' placeholder='Entermobile no*' required=''><br>
+<label>Type of donation:</label><br>
+<input type="radio" name='v1' value="v1">Love Offering<br>
+<input type="radio" name='v2' value="v2">For Construction<br>
+<input type="radio" name='vt' value="vt"checked="">One Time Donation<br>
+<label>Comments</label><br>
+<textarea id="subject" name="subject" placeholder="Type here.."></textarea><br>
+<label>Donation Amount:</label>
+<input type='text' name='Mobile' placeholder='Rs.' required=''><br>
+<label>Payment Mode:</label><br>
+<input type="radio" name='upi' value="UPI">UPI<br>
+<input type="radio" name='p2' value="p2">Netbankig<br>
+<input type="radio" name='p3' value="p3"checked="">Credit Card<br>
+<input type="radio" name='no3' value="p4">Debit Card<br>
+<input type="submit" value="SUBMIT">
+</form>
+</body>
+</html>
